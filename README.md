@@ -65,7 +65,7 @@ npm install
 
 1. **Tạo file `.env`** trong 4 thư mục đã clone về (nội dung nằm trong drive nộp bài tập)
 2. **Khởi động MySQL** và cập nhật thông tin kết nối
-3. **Chạy script SQL trong MySQL Workbench: ** file 01-schema.sql
+3. Chạy script SQL trong MySQL Workbench: file 01-schema.sql
 
 ### Bước 4: Chạy ứng dụng
 
