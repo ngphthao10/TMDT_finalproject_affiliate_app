@@ -1,10 +1,7 @@
-# HỌC VIỆN CÔNG NGHỆ BƯU CHÍNH VIỄN THÔNG CƠ SỞ TẠI THÀNH PHỐ HỒ CHÍ MINH
-
+# HỌC VIỆN CÔNG NGHỆ BƯU CHÍNH VIỄN THÔNG
 ## BÁO CÁO ĐỒ ÁN MÔN HỌC
 
-### **ĐỀ TÀI: XÂY DỰNG WEBSITE TIẾP THỊ LIÊN KẾT DÀNH CHO CÁC NHÂN VẬT CÓ SỨC ẢNH HƯỞNG (KOL)**
-
----
+**ĐỀ TÀI: XÂY DỰNG WEBSITE TIẾP THỊ LIÊN KẾT DÀNH CHO CÁC NHÂN VẬT CÓ SỨC ẢNH HƯỞNG (KOL)**
 
 **Môn học:** Phát triển Hệ thống Thương mại điện tử
 
@@ -13,8 +10,6 @@
 **Sinh viên:**
 1. Nguyễn Thị Phương Thảo - N21DCCN078 - Trưởng nhóm  
 2. Vũ Quốc Hoàng Anh - N21DCCN101 - Thành viên
-
----
 
 ## 📋 Giới thiệu dự án
 
@@ -68,13 +63,9 @@ npm install
 
 ### Bước 3: Cấu hình môi trường
 
-1. **Tạo file `.env`** trong thư mục backend với các thông tin kết nối MySQL
-2. **Khởi động MySQL Server** và cập nhật thông tin kết nối
-3. **Đồng bộ database:**
-   ```bash
-   cd affiliate_app_backend
-   npm run migrations
-   ```
+1. **Tạo file `.env`** trong 4 thư mục đã clone về (nội dung nằm trong drive nộp bài tập)
+2. **Khởi động MySQL** và cập nhật thông tin kết nối
+3. **Chạy script SQL trong MySQL Workbench: ** file 01-schema.sql
 
 ### Bước 4: Chạy ứng dụng
 
