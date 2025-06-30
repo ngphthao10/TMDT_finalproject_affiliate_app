@@ -1,0 +1,57 @@
+@import "tailwindcss";
+
+:root {
+  font-family: Inter, system-ui, Avenir, Helvetica, Arial, sans-serif;
+  line-height: 1.5;
+  font-weight: 400;
+  font-synthesis: none;
+  text-rendering: optimizeLegibility;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  -webkit-text-size-adjust: 100%;
+}
+
+body {
+  margin: 0;
+  min-width: 320px;
+  min-height: 100vh;
+  background-color: #f9fafb;
+}
+
+/* Custom scrollbar */
+::-webkit-scrollbar {
+  width: 6px;
+}
+
+::-webkit-scrollbar-track {
+  background: #f1f1f1;
+}
+
+::-webkit-scrollbar-thumb {
+  background: #ddd;
+  border-radius: 6px;
+}
+
+::-webkit-scrollbar-thumb:hover {
+  background: #ccc;
+}
+
+select,
+input,
+textarea {
+  border: 1px solid #e2e8f0;
+  outline-color: #ef4444;
+  border-radius: 4px;
+}
+
+/* Animation for active menu items */
+.active-menu-item {
+  transition: all 0.3s ease;
+}
+
+/* Extra styles for focus states */
+button:focus,
+a:focus {
+  outline: 2px solid rgba(239, 68, 68, 0.2);
+  outline-offset: 2px;
+}
